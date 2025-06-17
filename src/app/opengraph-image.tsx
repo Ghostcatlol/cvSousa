@@ -36,7 +36,6 @@ export default async function Image() {
           }}
         >
           <img
-            src={RESUME_DATA.avatarUrl}
             alt={RESUME_DATA.name}
             style={{
               width: "150px",

@@ -12,7 +12,6 @@ export const RESUME_DATA = {
   name: "Tiago Sousa",
   initials: "TS",
   location: "Seixal, Portugal",
-  //locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
     "Student of Electrical and Computer Engineering (ECE).",
   summary: (
@@ -20,7 +19,6 @@ export const RESUME_DATA = {
      I am driven by curiosity and a passion for puzzles in all their forms. Since I was a child, the greatest challenge that captivates me has been the computer. I admire the complexity of its circuits and the logical elegance that brings it to life. I love delving into the deepest levels to understand how every component integrates into the whole. This relentless pursuit of the “why” and the “how” behind every detail is what motivates me to learn and grow each and every day.
     </>
   ),
- // avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://tmfsousa.com",
   contact: {
     email: "temporario@tmfsousa.com",
@@ -46,9 +44,6 @@ export const RESUME_DATA = {
       start: "2025",
       end: "Present",
     },
-  ],
-  work: [
-      
   ],
   skills: [
     "Problem-solving",
