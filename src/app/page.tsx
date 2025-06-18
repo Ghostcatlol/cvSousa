@@ -32,6 +32,7 @@ export const metadata: Metadata = {
   },
 };
 
+
 /**
  * Transform social links for command menu
  */
@@ -86,4 +87,6 @@ export default function ResumePage() {
       </nav>
     </main>
   );
+
+  
 }
