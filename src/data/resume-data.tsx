@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       logo: JojoMobileLogo,
       link: {
         label: "Conway’s Game of Life",
-        href: "",
+        href: "https://github.com/Ghostcatlol/conwaygamebyNewbie.git",
       },
     },
    
