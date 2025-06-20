@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       title: "EEPROM PROGRAMMER",
       techStack: ["Logic systems", "Design", "ROM"],
       description:
-        "Desenvolvido em uma breadboard, que permite escolher o endereço desejado para gravar a combinação de bits",
+        "Desenvolvido em uma breadboard, permite escrever e escolher o endereço desejado para gravar a combinação de bits e ler o conteúdo da EEPROM.",
       logo: MonitoLogo,
       link: {
         label: "EEPROM",
