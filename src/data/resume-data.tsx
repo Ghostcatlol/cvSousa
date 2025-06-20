@@ -47,10 +47,27 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Problem-solving",
+    "Logic",
+    "Programming",
+    "Electronics",
     "C",
     "Arduino",
     "Design Systems",
   ],
+  interests: {
+    paragraph: (
+      <>
+        working on it.
+      </>
+    ),
+    list: [
+      { label: "Learning Cybersecurity", url: "https://tryhackme.com/p/catpop" },
+      { label: "Music", url: "" },
+      { label: "Chess", url: "" },
+      { label: "Books", url: "https://www.goodreads.com/user/show/188933407-tiago-sousa" },
+      { label: "Favorite puzzle game", url: "https://store.steampowered.com/app/753640/Outer_Wilds/" }
+    ]
+  },
   projects: [
    {
       title: "EEPROM PROGRAMMER",
