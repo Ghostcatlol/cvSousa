@@ -62,7 +62,7 @@ export const RESUME_DATA = {
     ),
     list: [
       { label: "Learning Cybersecurity", url: "https://tryhackme.com/p/catpop" },
-      { label: "Music", url: "" },
+      { label: "Music", url: "https://youtu.be/dQw4w9WgXcQ" },
       { label: "Chess", url: "" },
       { label: "Books", url: "https://www.goodreads.com/user/show/188933407-tiago-sousa" },
       { label: "Favorite puzzle game", url: "https://store.steampowered.com/app/753640/Outer_Wilds/" }
