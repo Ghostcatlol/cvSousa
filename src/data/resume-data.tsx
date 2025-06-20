@@ -63,6 +63,18 @@ export const RESUME_DATA = {
         href: "",
       },
     },
+
+    {
+      title: "GAME OF LIFE",
+      techStack: ["C"],
+      description:
+        "I developed a Conway’s Game of Life during my first semester at university to deepen my understanding of the C programming language.",
+      logo: JojoMobileLogo,
+      link: {
+        label: "Calculator",
+        href: "",
+      },
+    },
    
   ],
 } as const;
