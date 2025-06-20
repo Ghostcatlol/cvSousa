@@ -71,7 +71,7 @@ export const RESUME_DATA = {
         "I developed a Conway’s Game of Life during my first semester at university to deepen my understanding of the C programming language.",
       logo: JojoMobileLogo,
       link: {
-        label: "Calculator",
+        label: "Conway’s Game of Life",
         href: "",
       },
     },
