@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       </>
     ),
     list: [
-      { label: "Learning Cybersecurity", url: "https://tryhackme.com/p/catpop" },
+      { label: "Learning Cybersecurity", url: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-U4HZ0MH5WS.png" },
       { label: "Music", url: "https://youtu.be/dQw4w9WgXcQ" },
       { label: "Chess", url: "" },
       { label: "Books", url: "https://www.goodreads.com/user/show/188933407-tiago-sousa" },
