@@ -30,10 +30,10 @@ export function Interests({ interests, className }: InterestsProps) {
   return (
     <Section className={className}>
       <h2 className="text-xl font-bold" id="interests-section">
-        Interesses
+        Interests
       </h2>
       <span className="mb-1 block text-xs text-muted-foreground italic">
-        (É possível clicar nos interesses para mais detalhes)
+        (You can click on the interests for more details)
       </span>
       <div className="mb-2 text-pretty font-mono text-sm text-foreground/80 print:text-[12px]" aria-labelledby="interests-section">
         {interests.paragraph}
