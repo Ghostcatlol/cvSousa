@@ -162,7 +162,7 @@ export function Header() {
         />
       </div>
 
-      <Avatar className="size-28" aria-hidden="true">
+      <Avatar className="h-20 w-20 sm:h-28 sm:w-28" aria-hidden="true">
         <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
       </Avatar>
     </header>
