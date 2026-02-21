@@ -5,8 +5,10 @@ import {
   MonitoLogo,
   NSNLogo,
   ParabolLogo,
+  JarockiMeLogo,
+  Minimal,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, YouTubeIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Tiago Sousa",
@@ -28,6 +30,11 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/Ghostcatlol",
         icon: GitHubIcon,
+      },
+      {
+        name: "YouTube",
+        url: "https://www.youtube.com/@forestbitle",
+        icon: YouTubeIcon,
       },
      /* {
         name: "LinkedIn",
@@ -52,17 +59,37 @@ export const RESUME_DATA = {
     "Design Systems",
   ],
   projects: [
-   {
-      title: "EEPROM PROGRAMMER",
-      techStack: ["Logic systems", "Design", "ROM"],
-      description:
-        "Desenvolvido em uma breadboard, que permite escolher o endereço desejado para gravar a combinação de bits",
-      logo: MonitoLogo,
-      link: {
-        label: "EEPROM",
-        href: "",
-      },
-    },
-   
+       {
+         title: "EEPROM PROGRAMMER",
+         techStack: ["Logic systems", "Design", "ROM"],
+         description:
+           "Desenvolvido em uma breadboard, que permite escolher o endereço desejado para gravar a combinação de bits",
+         logo: MonitoLogo,
+         link: {
+           label: "EEPROM",
+           href: "",
+         },
+       },
+       {
+         title: "Snake Game",
+         techStack: ["Assembly", "NASM", "x86-64"],
+         description:
+           "Jogo da Cobra desenvolvido em Assembly x86-64, para fins de aprendizagem.",
+         logo: JarockiMeLogo,
+         link: {
+           label: "GitHub",
+           href: "https://github.com/Ghostcatlol/SnakeGame",
+         },
+       },
+       {
+         title: "Conway's Game of Life",
+         techStack: ["C"],
+         description: "Uma implementação do Jogo da Vida de Conway em C.",
+         logo: Minimal,
+         link: {
+           label: "GitHub",
+           href: "https://github.com/Ghostcatlol/conwaygamebyNewbie",
+         },
+       },   
   ],
 } as const;
