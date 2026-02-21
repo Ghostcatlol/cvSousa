@@ -1,3 +1,4 @@
+import { YouTubeIcon } from "@/components/icons";
 import { Badge } from "../../components/ui/badge";
 import {
   Card,
@@ -124,9 +125,21 @@ interface ProjectsProps {
 export function Projects({ projects }: ProjectsProps) {
   return (
     <Section className="print-force-new-page scroll-mb-16 print:space-y-4 print:pt-12">
-      <h2 className="text-xl font-bold" id="side-projects">
-        Side projects
-      </h2>
+      <div className="flex items-center gap-2">
+        <h2 className="text-xl font-bold" id="side-projects">
+          Side projects
+        </h2>
+        <a
+          href={RESUME_DATA.contact.social.find((social) => social.name === "YouTube")?.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <YouTubeIcon className="size-6" />
+        </a>
+      </div>
+      <p className="text-pretty font-mono text-sm text-muted-foreground">
+        Para mais detalhes, consulte o meu canal.
+      </p>
       <div
         className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3"
         role="feed"
